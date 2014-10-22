@@ -324,6 +324,6 @@ xyplot(data = mean_stps_per_intvl,
 ```
 plot of chunk unnamed-chunk-25
 
-More and more activities over weekend compare to week days.
+More and more activities over weekend compare to week-days.
  
 Note that the echo = TRUE parameter was added to the code chunk to print of the R codes that generate outputs in this report.
