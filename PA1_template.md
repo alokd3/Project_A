@@ -145,7 +145,7 @@ hist(stps_per_day$steps, main = "Total Number of Steps Per Day", xlab = "Total N
         20), col = "red")
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+![plot of chunk unnamed-chunk-10](graph/graph1.png)  
 
 plot of chunk unnamed-chunk-8
 
@@ -236,7 +236,7 @@ plot(avg_no_stps_intvl$interval, avg_no_stps_intvl$avg_steps, type = "l", xlab =
     col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
+![plot of chunk unnamed-chunk-17](graph/graph2.png) 
 
 plot of chunk unnamed-chunk-13
 
@@ -401,7 +401,7 @@ hist(stps_per_day_nm$steps, main = "Total Number of Steps Per Day", xlab = "Tota
         20), col = "green")
 ```
 
-![plot of chunk unnamed-chunk-28](figure/unnamed-chunk-28.png) 
+![plot of chunk unnamed-chunk-28](graph/graph3.png) 
 
 plot of chunk unnamed-chunk-20
  
@@ -478,7 +478,7 @@ xyplot(data = mean_stps_per_intvl, avg_steps ~ as.numeric(interval) | as.factor(
     xlab = "Time Interval (5-mins)", ylab = "Average number of steps")
 ```
 
-![plot of chunk unnamed-chunk-33](figure/unnamed-chunk-33.png) 
+![plot of chunk unnamed-chunk-33] (graph/graph4.png) 
 
 plot of chunk unnamed-chunk-25
 
@@ -489,7 +489,7 @@ xyplot(data = mean_stps_per_intvl, avg_steps ~ as.numeric(interval) | as.factor(
     xlab = "Time Interval (5-mins)", ylab = "Average number of steps")
 ```
 
-![plot of chunk unnamed-chunk-34](figure/unnamed-chunk-34.png) 
+![plot of chunk unnamed-chunk-34](graph/graph5.png) 
 
 plot of chunk unnamed-chunk-25
 
